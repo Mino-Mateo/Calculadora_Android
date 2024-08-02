@@ -60,7 +60,7 @@
             android:layout_columnWeight="1"
             android:layout_margin="3dp"
             android:onClick="cambiarOperador"
-            android:text="÷"
+            android:text="/"
             android:textSize="24sp" />
 
         <Button
@@ -123,7 +123,7 @@
 
             android:layout_margin="3dp"
             android:onClick="cambiarOperador"
-            android:text="X"
+            android:text="*"
             android:textSize="24sp" />
 
         <Button
