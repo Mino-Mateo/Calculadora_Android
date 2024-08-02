@@ -72,7 +72,7 @@ class MainActivity : AppCompatActivity() {
         }
     }
 
-    fun calcular(){
+    private fun calcular(){
         try {
             if(primerNumero.toString()!="NaN"){
                 if(tvTemp.text.toString().isEmpty()){
@@ -93,7 +93,7 @@ class MainActivity : AppCompatActivity() {
             }else{
                 primerNumero = tvTemp.text.toString().toDouble()
             }
-        }catch (e:Exception){
+        }catch (_:Exception){
 
         }
     }
